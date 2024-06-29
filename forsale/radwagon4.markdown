@@ -2,7 +2,7 @@
 layout: default
 title: "Rad Power Bikes RadWagon 4 For Sale"
 date: 2024-06-28 16:54:28 +0200
-categories: forsale
+collection: forsale
 
 carousels:
   - images:
