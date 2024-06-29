@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Rad Power Bikes RadWagon 4 For Sale"
 date: 2024-06-28 16:54:28 +0200
 categories: forsale
@@ -9,13 +9,18 @@ categories: forsale
 
 ## RadWagon Electric Cargo Bike Version 4
 
-<div class="row">
-  <div class="col-md-6" markdown="1">
+![RadWagon4](/docs/assets/images/radwagon4/radwagon4_right.jpeg)
+
+{% for image in site.static_files %}
+{% if image.path contains 'images/radwagon4/' %}
+![image]({{ image.path }} 'image')
+{% endif %}
+{% endfor %}
 
 ### Technical Specifications
 
-- Top Speed 25 km/h
-- Motor 250W Geared Hub
+- Top Speed 25 km/h (higher with upgrade)
+- Motor 250W Geared Hub (actually 750w)
 - Battery External 48V, 14 Ah (672 Wh)
 - Total Payload Capacity 158 kg
 - Tire Size 22" x 3.3"
@@ -41,9 +46,6 @@ categories: forsale
 - Display Type Custom LED Display
 - Display Readouts Charge indicator, speedometer, odometer, trip odometer, pedal assist level, motor watts, headlight/taillight indicator
 
-</div>
-<div class="col-md-6" markdown="1">
-
 ### Upgrade
 
 35 Amp Controller Upgrade and Display for Rad Power Bikes - Controller & Display
@@ -62,7 +64,4 @@ categories: forsale
 - 1 Large Basket Roll Top Liner
 - 1 ABUS Bordo Granit X-Plus 6500 Folding Lock
 - 1 Large Mounted Basket
-- 2 Ballard Cargo Bag
-
-</div>
-</div>
+- 2 Ballard Cargo Bags
