@@ -3,19 +3,45 @@ layout: default
 title: "Rad Power Bikes RadWagon 4 For Sale"
 date: 2024-06-28 16:54:28 +0200
 categories: forsale
+
+carousels:
+  - images:
+      - image: /docs/assets/images/radwagon4/radwagon4_right.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_left.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_rear.jpeg
+      - image: /docs/assets/images/radwagon4/biggamebikes_colordisplay.jpeg
+      - image: /docs/assets/images/radwagon4/biggamebikes_colorDisplay2.jpeg
+      - image: /docs/assets/images/radwagon4/biggamebikes_controlPad.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_topTubeBag.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_rearviewMirror.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_saddleBag.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_largeMountedBasket.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_largeBasketRollTopBag.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_largeBasketRollTopBag2.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_frontLight.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_ballardCargoBags.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_ballardCargoBags2.jpeg
+  - images:
+      - image: /docs/assets/images/radwagon4/radwagon4_caboose.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_conestoga.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_conestoga2.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_conestoga3.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_conestogaSunCover.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_conestogaSunCover2.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_conestogaSunCover3.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_abusBikeLock.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_footPegs.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_charger.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_toolKit.jpeg
+      - image: /docs/assets/images/radwagon4/radwagon4_originalController.jpeg
 ---
 
 # Rad Power Bikes
 
 ## RadWagon Electric Cargo Bike Version 4
 
-![RadWagon4](/docs/assets/images/radwagon4/radwagon4_right.jpeg)
-
-{% for image in site.static_files %}
-{% if image.path contains 'images/radwagon4/' %}
-![image]({{ image.path }} 'image')
-{% endif %}
-{% endfor %}
+{% include carousel.html height="75" unit="%" duration="100" number="1" %}
+{% include carousel.html height="75" unit="%" duration="100" number="2" %}
 
 ### Technical Specifications
 
